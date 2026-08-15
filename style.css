@@ -1,0 +1,192 @@
+body{
+  font-family: sans-serif;
+  margin: 0;
+background: #8B4513	;
+background: linear-gradient(90deg,rgba(139, 69, 19, 1) 0%, rgba(82, 50, 0, 1) 50%, rgba(150, 73, 38, 1) 100%);
+  
+}
+.hero{
+     text-align: center;
+}
+.menu{
+    display: flex;
+    justify-content:space-evenly;
+}
+
+header{
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+            url("https://tr.rbxcdn.com/180DAY-663bc02a3552df83c78368c3b4cce0eb/500/280/Image/Jpeg/noFilter") center/cover no-repeat;
+text-align:center ; 
+}
+.hero2{
+    display:flex ;
+     text-align: center;
+    flex-direction: row;
+    justify-content:space-evenly;
+    align-items: center;
+
+}
+h1{
+    display:flex ;
+    justify-content:center ;
+    border:5px solid #3B82F6 ;
+    padding:20px ;
+    color:white ;
+background: linear-gradient(90deg,rgba(0, 0, 0, 1) 0%, rgba(47, 79, 79, 1) 40%, rgba(112, 128, 144, 1) 100%);
+border-radius:20px ;
+
+}
+.menu-link{
+    display:flex ;
+    justify-content:space-evenly ;
+     transition:all 0.4s ;
+    background-color:brown ;
+    border-radius:1vh ;
+    padding:20px;
+    box-shadow: 32px 14px 12px 4px rgba(0, 0, 0, 0.25);
+    background: #8B4513;
+background: linear-gradient(90deg,rgba(139, 69, 19, 1) 0%, rgba(160, 82, 45, 1) 45%, rgba(165, 42, 42, 1) 100%);
+    
+}
+.card{
+    display:flex;
+    justify-content:space-evenly ;
+    padding:20px ;
+}
+a{
+text-decoration:none ;
+color: white;
+ display: flex;
+  flex-direction: row-reverse;
+}
+.menu-link2{
+     transition:all 0.4s ;
+    background-color:grey ;
+    border-radius:1vh ;
+    padding:20px;
+    box-shadow: 32px 14px 12px 4px rgba(0, 0, 0, 0.25);
+    background: #808080;
+background: linear-gradient(90deg,rgba(128, 128, 128, 1) 0%, rgba(192, 192, 192, 1) 45%, rgba(105, 105, 105, 1) 100%);
+}
+
+p{
+    padding:20px ;
+    font-weight:bold ;
+    color:white ;
+background: #D2691E;
+border: 5px solid #F97316;
+background: linear-gradient(163deg,rgba(210, 105, 30, 1) 0%, rgba(160, 82, 45, 1) 50%, rgba(222, 184, 135, 1) 100%);
+border-radius:20vh;
+}
+h2{
+    padding:20px ;
+    border:5px solid #EF4444;
+    color:white ;
+    background: #800000;
+background: linear-gradient(163deg,rgba(128, 0, 0, 1) 0%, rgba(165, 42, 42, 1) 50%, rgba(139, 0, 0, 1) 100%);
+
+
+}
+
+.menu-link:hover{
+     background-color:#C45E16;
+    border: 2px solid #A66600;
+    color:#F55E18;
+}
+.menu-link2:hover{
+    background-color:#E6E6E6;
+    border: 2px solid #ADADAD ;
+    color:#7A7A7A;
+}
+.menu-link3{
+     transition:all 0.4s ;
+    background-color:grey ;
+    border-radius:1vh ;
+    padding:20px;
+    box-shadow: 32px 14px 12px 4px rgba(0, 0, 0, 0.25);
+    background: #ffd04f;
+background: linear-gradient(90deg,rgba(255, 208, 79, 1) 0%, rgba(177, 199, 87, 1) 50%, rgba(168, 237, 83, 1) 100%);
+}
+.menu-link3:hover{
+    background-color:#FFBB00;
+    border: 2px solid #FFC800;
+    color:#007D28;
+}
+img{
+    border-radius:20px ;
+     border: 5px solid #6B7280;
+}
+h3{
+     border: 5px solid black;
+    font-weight:bold ;
+    border-radius:20vh ;
+    padding:20px ;
+    background: #DCDCDC;
+background: linear-gradient(163deg,rgba(220, 220, 220, 1) 0%, rgba(150, 158, 152, 1) 50%, rgba(88, 94, 89, 1) 100%);
+}
+h4{
+    border:5px solid #FFC107;
+    color: white;
+     font-weight:bold ;
+    padding:20px;
+    background: #020024;
+background: linear-gradient(90deg,rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 40%, rgba(245, 229, 2, 1) 100%);
+}
+main{
+    border:6px solid #F5F5F0 ;
+    border-radius:20px ;
+}
+footer{
+    border:5px solid #E09864 ;
+    border-radius:20px ;
+    padding:25px ;
+    background: #b89300;
+background: linear-gradient(90deg,rgba(184, 147, 0, 1) 0%, rgba(255, 213, 0, 1) 40%, rgba(255, 111, 0, 1) 100%);
+}
+.Twitter{
+    gap:15px ;
+    bottom:0;
+    display:flex ;
+    flex-direction: row-reverse;
+    padding:20px ;
+    color:white ;
+    border-radius:20px ;
+    background: #010500;
+background: linear-gradient(90deg,rgba(1, 5, 0, 1) 0%, rgba(26, 26, 26, 1) 50%, rgba(144, 144, 150, 1) 100%);
+}
+.YouTube{
+    display:flex ;
+    flex-direction: row-reverse;
+    padding:20px ;
+    color:white ;
+    border-radius:20px ;
+    background: #ff0000;
+background: linear-gradient(90deg,rgba(255, 0, 0, 1) 0%, rgba(184, 184, 184, 1) 42%, rgba(191, 0, 0, 1) 100%);
+}
+.TikTok{
+    display:flex ;
+    flex-direction: row-reverse;
+     padding:20px ;
+    color:white ;
+    border-radius:20px ;
+    background: #85dcff;
+background: linear-gradient(90deg,rgba(133, 220, 255, 1) 0%, rgba(255, 120, 196, 1) 50%, rgba(82, 82, 82, 1) 100%);
+}
+.Discord{
+    display:flex ;
+    flex-direction: row-reverse;
+    padding:20px ;
+    color:white ;
+    border-radius:20px ;
+    background: #e8bfff;
+background: linear-gradient(90deg,rgba(232, 191, 255, 1) 0%, rgba(176, 59, 255, 1) 50%, rgba(255, 255, 255, 1) 100%);
+}
+.Roblox{
+    display:flex ;
+    flex-direction: row-reverse;
+     padding:20px ;
+    color:white ;
+    border-radius:20px ;
+    background: #69e6ff;
+background: linear-gradient(90deg,rgba(105, 230, 255, 1) 0%, rgba(9, 9, 121, 1) 50%, rgba(0, 212, 255, 1) 100%);
+}
